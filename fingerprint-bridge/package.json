@@ -1,0 +1,14 @@
+{
+  "name": "zkfinger-bridge",
+  "version": "1.0.0",
+  "description": "ZKTeco fingerprint scanner HTTP bridge for bilal-motors",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "koffi": "^2.7.0",
+    "pngjs": "^7.0.0"
+  }
+}
